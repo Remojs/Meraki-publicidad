@@ -49,7 +49,6 @@ function App() {
           <h4 className='contact-text-two'> Hablemos sobre la publicidad adecuada para tu empresa </h4>
           <h4 className='contact-call'> Llamanos Ahora! </h4>
           <h3 className='contact-num'> +54 9 223 687 3463</h3>
-          <img src={map} alt="" className='contact-img'/>
         </div>
 
         <div className='contact-inputs'>
