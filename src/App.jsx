@@ -30,7 +30,7 @@ function App() {
       <div className='nosotros-box'>
         <div className='nosotros-textbox'>
           <h1 className=''> Hacemos que tu marca destaque </h1>
-          <p className=''> Trabajamos con Empresas de los más diversos rubros posicionando y acercando sus productos y servicios a nuevos clientes. Somos expertos en Publicidad. </p>
+          <p className=''> Nosotras transformamos tu marca, construyendo tu identidad a traves de su trayectoria. Acercando sus productos y servicios a nuevos clientes. Animate a crecer!. </p>
         </div>
         <img src={img2} alt="" className='nosotros-img'/>
       </div>
@@ -39,7 +39,7 @@ function App() {
         <img src={img} alt="" className='nosotros-img'/>
         <div className='nosotros-textbox'>
           <h1> Como lo hacemos </h1>
-          <p> Logramos que los clientes encuentren tu Empresa. Optimizamos tus recursos para que vendas más productos y servicios en línea. Vas a llegar a nuevos públicos por ende a nuevos clientes. </p>
+          <p> Resolvemos desafios. Ofrecemos servicios de comunicacion eficaz, desarrollando nuevas estrategias, contenido de calidad para tu marca. </p>
         </div>
       </div>
 
