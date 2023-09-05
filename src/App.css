@@ -1,0 +1,178 @@
+*{
+  font-family: 'Roboto Slab', serif;
+}
+
+body {
+  background: linear-gradient(180deg, #e8f1f5, #c1ddea, #94c5dc, #26b9ff);
+}
+
+
+
+:root{
+  --primary:#03a9f4;
+  --secondary: #;
+  --terciary: #;
+  --entoner: #;
+}
+
+.nav-box{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.logo{
+  height: 3rem;
+  padding-left: 5rem;
+}
+
+.link{
+  font-weight: 200;
+  font-size: 1rem;
+}
+
+.link:hover{
+  color: var(--primary);
+}
+
+.landing-title{
+  display: flex;
+  flex-direction: column;
+  font-size: 3.5rem;
+  padding: 3rem;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.title-strong{
+  font-weight: 500;
+  font-size: 4rem;
+}
+
+.landing-img{
+  height: 18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem 15rem; 
+}
+
+.nosotros-box{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10rem;
+}
+
+.nosotros-textbox{
+  display: flex;
+  flex-direction: column;
+  width: 30rem;
+}
+
+.nosotros-img{
+  height: 35rem;
+}
+
+.contact-box{
+  display: flex;
+  flex-direction: column;
+  margin: 4rem;
+  width: 50%;
+}
+
+.contact-text-one{
+  font-size: 3rem;
+  font-weight: 400;
+  
+}
+
+.contact-text-two{
+  font-size: 1.5rem;
+  width: 30rem;
+  margin: 0;
+  font-weight: 200;
+}
+
+.contact-img{
+  height: 10rem;
+  width: 25rem;
+}
+
+.contact-section{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-inputs{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 9rem 5rem;
+  gap: 1rem;
+}
+
+.contact-input{
+  width: 20rem;
+  height: 1.5rem;
+}
+
+.contact-label{
+  font-weight: 500;
+}
+
+.contact-btn{
+  height: 2rem;
+  width: 4rem;
+  border: 3px solid #00388d;
+  border-radius: 5px;
+}
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10rem 0 9.5rem;
+  background-color: #89cbf1;
+}
+
+.social-footer-box{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.contact-footer-box{
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+} 
+
+.media-footer-box{
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+
+.icons{
+  height: 1.5rem;
+  width: 1.5rem;
+  margin: .3rem;
+}
+
+.icons-box{
+  padding: 3px;
+  border: 1px solid black;
+  margin: 4px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-links{
+  margin: 4px;
+}
