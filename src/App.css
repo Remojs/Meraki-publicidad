@@ -2,17 +2,12 @@
   font-family: 'Roboto Slab', serif;
 }
 
-body {
-  background: linear-gradient(180deg, #e8f1f5, #c1ddea, #94c5dc, #26b9ff);
+::-webkit-scrollbar{
+  display: none;
 }
 
-
-
-:root{
-  --primary:#03a9f4;
-  --secondary: #;
-  --terciary: #;
-  --entoner: #;
+body {
+  background: linear-gradient(180deg, #e8f1f5, #e8f1f5, #e8f1f5, #c1ddea, #94c5dc, #62afd3);
 }
 
 .nav-box{
@@ -30,11 +25,12 @@ body {
 
 .link{
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .link:hover{
-  color: var(--primary);
+  color: #4D60EC;
+  cursor: pointer;
 }
 
 .landing-title{
@@ -135,32 +131,36 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10rem 0 9.5rem;
-  background-color: #89cbf1;
+  padding: 0 8rem 0 7.5rem;
+  background-color: #000000;
 }
 
 .social-footer-box{
   display: flex;
   flex-direction: column;
   margin: 0;
+  color: #ffffff;
 }
 
 .contact-footer-box{
   display: flex;
   flex-direction: column;
   margin: 0;
+  color: #ffffff;
 } 
 
 .media-footer-box{
   display: flex;
   flex-direction: row;
   margin: 0;
+  color: #ffffff;
 }
 
 .icons{
   height: 1.5rem;
   width: 1.5rem;
   margin: .3rem;
+  background-color: #ffffff;
 }
 
 .icons-box{
@@ -171,8 +171,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffffff;
 }
 
 .social-links{
-  margin: 4px;
+  margin: 1px;
 }

@@ -67,11 +67,6 @@ function App() {
       </div>
 
       <footer className='footer'>
-        <div className='social-footer-box'>
-          <h6 className='social-links'>Bienvenidos</h6>
-          <h6 className='social-links'>Nosotros</h6>
-          <h6 className='social-links'>Contacto</h6>
-        </div>
 
         <div>
           <div className='contact-footer-box'>
@@ -87,20 +82,16 @@ function App() {
               <img src="" alt="" />
               <h6 className='social-links'> @MerakiPublicidad </h6>
             </div>
-            <div>
-              <img src="" alt="" />
-              <h6 className='social-links'> @Meraki.publicidad </h6>
-            </div>
           </div>
 
           <img src="" alt="" />
         </div>
 
         <div className='media-footer-box'>
-          <div className='icons-box'><img src={icont} alt="" className='icons'/></div>
-          <div className='icons-box'><img src={iconw} alt="" className='icons'/></div>
-          <div className='icons-box'><img src={iconl} alt="" className='icons'/></div>
-          <div className='icons-box'><img src={iconf} alt="" className='icons'/></div>
+          <div className='icons-box'> <a href="https://twitter.com/MerakiPublicidad"><img src={icont} alt="" className='icons'/></a></div>
+          <div className='icons-box'> <a href="https://wa.me/+5492236873463"><img src={iconw} alt="" className='icons'/></a></div>
+          <div className='icons-box'> <a href="https://linkedin.com/merakipublicidad"><img src={iconl} alt="" className='icons'/></a></div>
+          <div className='icons-box'> <a href="https://facebook.com/merakipublicidad"><img src={iconf} alt="" className='icons'/></a></div>
         </div>
       </footer>
     </>
