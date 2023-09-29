@@ -1,8 +1,5 @@
-# React + Vite
+# Meraki Contact Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Esta es una pagina a pedido de un cliente, la intencion de la pagina es solo de mostrar lo que hace la agencia en pocas palabras y permitirle a los clientes una fuente de contacto unificada para que tengan todos los medios a disposicion. La misma fue realizada para un cliente real y se realizo en poco mas de un dia, utilizando las tecnologias de React, Css y Vite.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![](https://github.com/Remojs/Meraki-publicidad/blob/master/src/img/logocompleto.png?raw=true)
