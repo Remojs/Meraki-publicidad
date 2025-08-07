@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
-import { Sun, Moon, Globe, Menu, X } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import Button from '../../../../shared/components/Button';
-import { useTheme } from '../../../../shared/contexts/ThemeContext';
 import { useLanguage } from '../../../../shared/contexts/LanguageContext';
 import styles from './FloatingNav.module.css';
 
@@ -9,8 +8,7 @@ const FloatingNav = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [activeSection, setActiveSection] = useState('hero');
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const { theme, toggleTheme } = useTheme();
-  const { language, toggleLanguage, t } = useLanguage();
+  const { t } = useLanguage();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -76,25 +74,6 @@ const FloatingNav = () => {
 
             {/* Controls */}
             <div className={styles.controls}>
-              <Button
-                onClick={toggleTheme}
-                variant="ghost"
-                size="icon"
-                className={styles.controlButton}
-              >
-                {theme === 'light' ? <Moon className={styles.icon} /> : <Sun className={styles.icon} />}
-              </Button>
-              
-              <Button
-                onClick={toggleLanguage}
-                variant="ghost"
-                size="icon"
-                className={styles.controlButton}
-              >
-                <Globe className={styles.icon} />
-                <span className={styles.langText}>{language.toUpperCase()}</span>
-              </Button>
-
               {/* Mobile Menu Button */}
               <Button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}

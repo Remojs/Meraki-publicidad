@@ -13,8 +13,7 @@ const Footer = () => {
             {/* Brand */}
             <div className={styles.brandSection}>
               <div className={styles.brand}>
-                <div className={styles.logo}></div>
-                <span className={styles.brandName}>MERAKI</span>
+                <img src="/completeicon.png" alt="Meraki" className={styles.logoImage} />
               </div>
               <p className={styles.description}>
                 Agencia de publicidad especializada en transformar marcas y crear 

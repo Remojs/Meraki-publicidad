@@ -1,73 +1,72 @@
-# Welcome to your Lovable project
+# MERAKI - Agencia de Publicidad
 
-## Project info
+## 🎯 Objetivo del Proyecto
 
-**URL**: https://lovable.dev/projects/b06735d0-0c3e-4cb4-92ca-befd552f345e
+Este es el sitio web oficial de **MERAKI**, una agencia de publicidad especializada en transformar marcas y crear experiencias únicas que conectan con la audiencia. La página web presenta nuestros servicios, portfolio y formas de contacto de manera moderna e interactiva.
 
-## How can I edit this code?
+### Servicios que ofrecemos:
+- **Branding & Identity** - Creamos identidades visuales únicas que reflejan la esencia de tu marca
+- **Marketing Digital** - Estrategias integrales en redes sociales, SEO y publicidad para maximizar tu alcance online
+- **Desarrollo Web** - Sitios web modernos, responsivos y optimizados para generar más conversiones
+- **Producción Audiovisual** - Videos promocionales, fotografía de productos y contenido visual de alta calidad
+- **Diseño Gráfico** - Material publicitario, brochures y diseños que comunican tu mensaje efectivamente
+- **Estrategia de Contenido** - Planificación y creación de contenido que engancha y convierte a tu audiencia objetivo
 
-There are several ways of editing your application.
+## 🛠️ Tecnologías Utilizadas
 
-**Use Lovable**
+Este proyecto está construido con tecnologías modernas de desarrollo web:
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b06735d0-0c3e-4cb4-92ca-befd552f345e) and start prompting.
+- **React 18** - Biblioteca de JavaScript para interfaces de usuario
+- **Vite** - Herramienta de construcción rápida y servidor de desarrollo
+- **CSS Modules** - Estilos CSS con alcance local para componentes
+- **Lucide React** - Iconos SVG modernos y ligeros
+- **JavaScript ES6+** - Sintaxis moderna de JavaScript
+- **HTML5 & CSS3** - Estándares web modernos
+- **Google Fonts** - Tipografías Poppins e Inter para una experiencia visual premium
 
-Changes made via Lovable will be committed automatically to this repo.
+### Características técnicas:
+- ✨ Animaciones fluidas y efectos interactivos
+- 📱 Diseño completamente responsivo
+- 🌐 Soporte multiidioma (Español/Inglés)
+- 🎨 Interfaz moderna con gradientes y efectos glassmorphism
+- ⚡ Optimización de rendimiento y carga rápida
+- 🔧 Arquitectura de componentes modular y reutilizable
 
-**Use your preferred IDE**
+## 🚀 Instalación y Desarrollo
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Requisitos previos
+- Node.js (versión 16 o superior)
+- npm o yarn
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Pasos para ejecutar localmente
 
-Follow these steps:
+```bash
+# Clonar el repositorio
+git clone https://github.com/Remojs/Meraki-publicidad.git
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Navegar al directorio del proyecto
+cd Meraki-publicidad
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Instalar dependencias
+npm install
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Iniciar servidor de desarrollo
 npm run dev
+
+# Construir para producción
+npm run build
 ```
 
-**Edit a file directly in GitHub**
+## 📞 Información de Contacto
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Email:** meraki.publicidad@gmail.com
+- **Teléfono:** +54 9 223 687 3463
+- **Ubicación:** Argentina
 
-**Use GitHub Codespaces**
+## 📄 Licencia y Contribuciones
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Este es un proyecto privado y cerrado de MERAKI Agencia de Publicidad. **No se aceptan contribuciones externas** de ningún tipo. Todos los derechos reservados.
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b06735d0-0c3e-4cb4-92ca-befd552f345e) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+© 2025 MERAKI. Todos los derechos reservados.
