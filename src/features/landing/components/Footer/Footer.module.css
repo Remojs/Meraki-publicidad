@@ -201,6 +201,42 @@
   color: #3b82f6;
 }
 
+/* Dev Credit Strip */
+.devCredit {
+  border-top: 1px solid rgba(226, 232, 240, 0.5);
+  padding: 0.6rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  background: inherit;
+}
+
+.devCreditLink {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  text-decoration: none;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.02em;
+  transition: color 0.25s ease;
+}
+
+.devCreditLink:hover {
+  color: #475569;
+}
+
+.devLogo {
+  height: 1.1rem;
+  width: auto;
+  object-fit: contain;
+}
+
+.devName {
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
 /* Copyright */
 .copyright {
   display: flex;

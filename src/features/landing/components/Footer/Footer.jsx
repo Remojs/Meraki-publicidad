@@ -61,6 +61,24 @@ const Footer = () => {
           </div>
         </div>
       </div>
+
+      {/* Dev Credit */}
+      <div className={styles.devCredit}>
+        <a
+          href="https://interaktivesolutions.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.devCreditLink}
+        >
+          <span>developed by</span>
+          <img
+            src="https://raw.githubusercontent.com/Remojs/Interaktive_QR-Manager/refs/heads/master/frontend/assets/logo.png"
+            alt="Interaktive"
+            className={styles.devLogo}
+          />
+          <span className={styles.devName}>INTERAKTIVE</span>
+        </a>
+      </div>
     </footer>
   );
 };
